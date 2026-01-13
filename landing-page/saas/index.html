@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing SaaS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="brand">
+            <div class="logo"></div>
+            <span class="brandName">SaaS</span>
+        </div>
+        
+        <nav>
+            <a href="#benefits">Benefici</a>
+            <a href="#reviews">Recensioni</a>
+            <a href="#contacts">Contatti</a>
+        </nav>
+
+        <a class="primary-btn" href="#contacts">Richiedi Info</a>
+    </header>
+
+    <main>
+        <!--Hero-->
+        <section id="hero">
+            <div class="row-between">
+                <div class="column-start half-width">
+                    <h1>Automatizza il lavoro ripetitivo. Inizia ad ottenere risultati</h1>
+                    <p class="lead">
+                        SaaS centralizza processi e dati in un’unica dashboard: 
+                        meno passaggi manuali, meno errori, più controllo.
+                    </p>
+
+                    <div class="row-between">
+                        <a class="primary-btn" href="#contacts">Richiedi Info</a>
+                        <a class="secondary-btn" href="#benefits">Vedi come funziona</a>
+                    </div>
+
+                    <span class="lead  medium">Setup in poche ore • Supporto umano</span>
+                </div>
+
+                <div class="half-width">
+                    <div class="card">
+                        <div class="row-between">
+                            <span class="lead medium">Dashboard (demo)</span>
+                            <span class="lead medium">Aggiornato: <span id="current-time"></span></span>
+                        </div>
+
+                        <div class="grid">
+                            <div class="card-2">
+                                <span>-32%</span>
+                                <span class="lead small">Tempo operativo</span>
+                            </div>
+
+                            <div class="card-2">
+                                <span>+18%</span>
+                                <span class="lead small">Conversioni</span>
+                            </div>
+
+                            <div class="card-2">
+                                <span>99.3%</span>
+                                <span class="lead small">Uptime</span>
+                            </div>
+                        </div>
+
+                        <hr>
+
+                        <div class="row-between">
+                            <span class="lead">Crescita: stabile ✅</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--Benefits-->
+        <section id="benefits">
+            <h2>Benefici</h2>
+            <p class="lead large">La promessa è semplice: togliere attrito. Qui sotto ci sono benefici concreti</p>
+
+            <div class="row-center">
+                <article class="card a-quarter-width">
+                    <div class="card-2">⚙️</div>
+                    <h3>Processi più corti</h3>
+                    <p class="lead">Automazioni e flussi chiari: meno passaggi manuali, meno errori, meno “chi lo doveva fare?”.</p>
+                </article>
+
+                <article class="card a-quarter-width">
+                    <div class="card-2">📈</div>
+                    <h3>Numeri visibili</h3>
+                    <p class="lead">Dashboard con KPI leggibili: capisci cosa succede e dove intervenire, senza indovinare.</p>
+                </article>
+
+                <article class="card a-quarter-width">
+                    <div class="card-2">🔒</div>
+                    <h3>Controllo e sicurezza</h3>
+                    <p class="lead">Accessi per ruoli, audit base e buone pratiche: abbastanza serio per un contesto business.</p>
+                </article>
+            </div>
+        </section>
+
+
+        <!--Reviews-->
+        <section id="reviews">
+            <h2>Recensioni</h2>
+            <p class="lead large">Recensioni di clienti che lo hanno provato</p>
+
+            <div class="row-center">
+                <blockquote class="card">
+                    <p class="lead">“Abbiamo ridotto i passaggi manuali e finalmente i dati tornano.”</p>
+                    <footer class="lead medium">Nome Azienda</footer>
+                </blockquote>
+
+                <blockquote class="card">
+                    <p class="lead">“La differenza è che ora vediamo i KPI senza rincorrere mille fogli.”</p>
+                    <footer class="lead medium">Nome Azienda</footer>
+                </blockquote>
+
+                <blockquote class="card">
+                    <p class="lead">“Onboarding rapido e supporto concreto. Zero teatrini.”</p>
+                    <footer class="lead medium">Nome Azienda</footer>
+                </blockquote>
+            </div>
+        </section>
+
+
+        <!--Contacts-->
+        <section id="contacts">
+            <h2>Contatti</h2>
+            <p class="lead large">Compila il form: ti rispondiamo con una demo mirata sul tuo caso d’uso.</p>
+
+            <form class="card">
+                <div>
+                    <label for="name" class="lead medium">Nome</label>
+                    <input type="text" id="name" name="name" placeholder="Es. Mario" autocomplete="on" required>
+                </div>
+
+                <div>
+                    <label for="surname" class="lead medium">Cognome</label>
+                    <input type="text" id="surname" name="surname" placeholder="Es. Rossi" autocomplete="on" required>
+                </div>
+
+                <div>
+                    <label for="email" class="lead medium">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Es. nome@azienda.it" autocomplete="on" required>
+                </div>
+
+                <div>
+                    <label for="agency" class="lead medium">Azienda</label>
+                    <input type="text" id="agency" name="agency" placeholder="Nome dell'azienda" autocomplete="on" required>
+                </div>
+
+                <div>
+                    <label for="size">Dimensione team</label>
+                    <select id="size" name="size" required>
+                        <option value="">Seleziona…</option>
+                        <option>1–5</option>
+                        <option>6–20</option>
+                        <option>21–100</option>
+                        <option>100+</option>
+                    </select>
+                </div>
+
+                <div>
+                <label for="message">Cosa vuoi migliorare?</label>
+                <textarea id="message" name="message" required placeholder="Es. ridurre gestione manuale, report, onboarding, ecc."></textarea>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="lead medium">© <span id="year"></span> <span>SaaS</span></div>
+
+        <nav>
+            <a href="#benefits">Benefici</a>
+            <a href="#reviews">Recensioni</a>
+            <a href="#contacts">Contatti</a>
+        </nav>
+
+        <span class="lead medium">Design: <br> <a class="lead normal" href="https://www.angelomuscio.it/">Angelo Muscio</a></span>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
