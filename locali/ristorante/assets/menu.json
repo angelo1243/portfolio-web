@@ -1,0 +1,86 @@
+[
+    {
+        "category": "antipasti",
+        "name": "Tagliere della casa",
+        "image": "tagliere.jpg",
+        "description": "Salumi misti italiani, formaggi stagionati, confetture artigianali",
+        "price": "12,00"
+    },
+    {
+        "category": "antipasti",
+        "name": "Bruschette miste",
+        "image": "bruschette.jpg",
+        "description": "Pane tostato, pomodoro fresco, basilico, olio extravergine d'oliva",
+        "price": "7,00"
+    },
+    {
+        "category": "antipasti",
+        "name": "burrata",
+        "image": "burrata.jpg",
+        "description": "Burrata fresca con pomodorini, rucola e olio EVO",
+        "price": "10,00"
+    },
+    {
+        "category": "primi",
+        "name": "Spaghetti alla carbonara",
+        "image": "carbonara.jpg",
+        "description": "Pasta di grano duro, guanciale, uova, pecorino romano, pepe nero",
+        "price": "13,00"
+    },
+    {
+        "category": "primi",
+        "name": "Risotto ai funghi porcini",
+        "image": "risotto.jpg",
+        "description": "Riso Carnaroli, funghi porcini, burro, parmigiano",
+        "price": "14,00"
+    },
+    {
+        "category": "secondi",
+        "name": "Tagliata di manzo",
+        "image": "tagliata.jpg",
+        "description": "Controfiletto di manzo, rucola, scaglie di parmigiano",
+        "price": "19,00"
+    },
+    {
+        "category": "secondi",
+        "name": "Salmone al forno",
+        "image": "salmone.jpg",
+        "description": "Filetto di salmone al forno con limone e olio EVO",
+        "price": "18,00"
+    },
+    {
+        "category": "dolci",
+        "name": "Tiramisù della casa",
+        "image": "tiramisu.jpg",
+        "description": "Mascarpone, savoiardi, caffè, cacao amaro",
+        "price": "6,00"
+    },
+    {
+        "category": "dolci",
+        "name": "Cheesecake ai frutti di bosco",
+        "image": "cheesecake.jpg",
+        "description": "Cheesecake cremosa con topping ai frutti di bosco",
+        "price": "6,50"
+    },
+    {
+        "category": "dolci",
+        "name": "Panna cotta alla vaniglia",
+        "image": "panna_cotta.jpg",
+        "description": "Panna cotta con coulis di frutti di bosco",
+        "price": "5,50"
+    },
+    {
+        "category": "bevande",
+        "name": "Bibite analcoliche",
+        "image": "coca.jpg",
+        "description": "Coca-Cola, Fanta, Sprite",
+        "price": "3,00"
+    },
+    {
+        "category": "bevande",
+        "name": "Vino della casa",
+        "image": "vino.jpg",
+        "description": "Calice di vino rosso o bianco",
+        "price": "4,50"
+    }
+]
